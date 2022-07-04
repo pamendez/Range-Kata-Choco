@@ -13,9 +13,8 @@ Este repositorio contiene la documentacion y los archivos necesarios para poder 
 Es necesario tener instalado Chocolatey. Si no lo tiene instalado, puede descargarlo [aqui](https://chocolatey.org/install).
 
 ## 3. Instalación y uso
-Tras tener el Chocolatey instalado, ejecute el siguiente comando en la consola PowerShell con permisos de administrador para:
+Tras tener el Chocolatey instalado, ejecute el siguiente comando en la consola PowerShell con permisos de administrador en funcion del paquete **pykrange.portable** para:
 
-**pykrange.portable**
 a. Instalar el paquete portable, escriba:
 ```powershell
 choco install pykrange.portable
@@ -30,6 +29,8 @@ c. Desinstalar el paquete, escriba:
 ```powershell
 choco uninstall pykrange.portable
 ```
+
+El paquete se encuentra publicado en esta [pagina](https://community.chocolatey.org/packages/pykrange.portable/0.1.0) de Chocolatey.
 
 ## 4. Documentación del proceso
 Todo el proceso pertinente a la construcción y publicación del paquete de Chocolatey esta documentado en este [archivo](DOCS.md).

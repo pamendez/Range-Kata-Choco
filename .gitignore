@@ -1,0 +1,5 @@
+# Pyinstaller executable files
+*.exe
+build
+dist
+*.spec

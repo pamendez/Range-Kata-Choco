@@ -3,3 +3,8 @@
 build
 dist
 *.spec
+
+# NuGet package 
+*.nupkg
+
+

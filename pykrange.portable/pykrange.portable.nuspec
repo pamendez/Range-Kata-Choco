@@ -34,7 +34,7 @@ This is a nuspec. It mostly adheres to https://docs.nuget.org/create/Nuspec-Refe
 
     <!-- == SOFTWARE SPECIFIC SECTION == -->
     <!-- This section is about the software itself -->
-    <title>pykrange.portable (Install)</title>
+    <title>pykrange.portable (Portable)</title>
     <authors>
       Pedro Arturo Méndez Cruz
       Belkis Yazmin Vásquez Peña
@@ -53,7 +53,7 @@ This is a nuspec. It mostly adheres to https://docs.nuget.org/create/Nuspec-Refe
     <!--<docsUrl>At what url are the software docs located?</docsUrl>-->
     <!--<mailingListUrl></mailingListUrl>-->
     <!--<bugTrackerUrl></bugTrackerUrl>-->
-    <tags>pykrange.portable SPACE_SEPARATED</tags>
+    <tags>python kata-range range pyinstaller</tags>
     <summary>A Chocolatey package containing a standalone executable with the Kata Range application.</summary>
     <description>
       A Chocolatey package containing a standalone executable with the Kata Range application. This is a secure

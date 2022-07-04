@@ -10,6 +10,8 @@ Como Python es un lenguaje interpretado, este no se compila a un ejecutable como
 
 NOTA: Esta forma de subir paquetes algunos la denotan como "sucia", debido a que se anda subiendo un ejecutable y no un paquete como tal.
 
-4. 
+4. Modificamos el `chocolateyinstall.ps1` agregando el nombre del paquete, ruta, tipo del archivo y nombre del archivo, además del comando `Install-BinFile` para instalar el ejecutable como un archivo binario. 
 
-## 2. 
+5. Modificamos el `chocolateyuninstall.ps1` 
+
+## 2.

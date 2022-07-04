@@ -4,23 +4,24 @@
 ## 1. Descripción
 Este repositorio contiene la documentacion y los archivos necesarios para poder hacer y publicar un paquete de Chocolatey. El mismo contiene la aplicacion de Python del Kata Range realizada de dos formas:
 
-1. Un paquete con el ejecutable enpaquetado de la aplicación de Python.
-2. Un paquete con el archivo de codigo fuente de Python y un script de ejecución.
+1. Un paquete con el ejecutable enpaquetado de la aplicación de Python llamado 'pykrange.portable'.
+2. Un paquete con el archivo de codigo fuente de Python y un script de ejecución llamado 'pykrange.package'.
 
 ## 2. Requerimientos
 Es necesario tener instalado Chocolatey. Si no lo tiene instalado, puede descargarlo [aqui](https://chocolatey.org/install).
 
 ## 3. Instalación y uso
-Tras tener el Chocolatey instalado, ejecute el siguiente comando para.
+Tras tener el Chocolatey instalado, ejecute el siguiente comando en la consola PowerShell con permisos de administrador para:
 
-a. Para instalar el paquete portable, escriba:
+**pykrange.portable**
+a. Instalar el paquete portable, escriba:
 ```powershell
 choco install pykrange.portable
 ```
-
-b. Para instalar el paquete con el script, escriba
+**pykrange.package**
+a. Instalar el paquete con el script, escriba
 ```powershell
-choco install pykrange
+choco install pykrange.package
 ```
 
 ## 4. Documentación del proceso

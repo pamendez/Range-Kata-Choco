@@ -12,6 +12,21 @@ NOTA: Esta forma de subir paquetes algunos la denotan como "sucia", debido a que
 
 4. Modificamos el `chocolateyinstall.ps1` agregando el nombre del paquete, ruta, tipo del archivo y nombre del archivo, además del comando `Install-BinFile` para instalar el ejecutable como un archivo binario. 
 
-5. Modificamos el `chocolateyuninstall.ps1` 
+5. Modificamos el `chocolateyuninstall.ps1` agregamos los argumentos del paquete al documento y el comando `Uninstall-BinFile -Name "${packageName}"`.
 
+6. Se agrega el archivo de LINCENSE.txt con la licencia del MIT.
+
+7. Luego de crear el ejecutable, accedemos a la carpeta pykrange.portable.
+
+8. Ejecutamos el comando `choco pack`.
+
+9. Accedemos a la consola PowerShell con permisos de Administrador y ejectuamos el comando `choco install pykrange.portable -dv -s .`
+
+10. Durante la instalacion del paquete nos preguntara que si queremos ejectuar el script y escribimos 'A' para ejecutarlo.
+
+11. Luego de ejectuar estos pasos, nuestro paquete deberia estar instalado en nuestra máquina local.
+
+12. Ejecutamos nuestro paquete ejecutando el comando `pykrange.portable` y verificamos que nuestra aplicacion este funcionando de manera correcta.
+
+13. Posteriormente creamos una cuenta en Chocolatey utilizando la direccion: https://community.chocolatey.org/account/register
 ## 2.

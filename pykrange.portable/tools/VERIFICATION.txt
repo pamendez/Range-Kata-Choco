@@ -1,1 +1,5 @@
-﻿This package was made by the specified authors.
+﻿This package was made by the following authors:  
+
+Pedro Arturo Mendez Cruz 
+Jean Michael Cuadrado Pérez
+Belkis Yazmin Vasquez Peña 

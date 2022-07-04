@@ -22,11 +22,14 @@ NOTA: Esta forma de subir paquetes algunos la denotan como "sucia", debido a que
 
 9. Accedemos a la consola PowerShell con permisos de Administrador y ejectuamos el comando `choco install pykrange.portable -dv -s .`
 
-10. Durante la instalacion del paquete nos preguntara que si queremos ejectuar el script y escribimos 'A' para ejecutarlo.
+10. Durante la instalacion del paquete nos preguntara que si queremos ejectuar el script y escribimos 'A' para ejecutarlo. Luego de ejectuar estos pasos, nuestro paquete deberia estar instalado en nuestra máquina local.
 
-11. Luego de ejectuar estos pasos, nuestro paquete deberia estar instalado en nuestra máquina local.
+11. Ejecutamos nuestro paquete ejecutando el comando `pykrange.portable` y verificamos que nuestra aplicacion este funcionando de manera correcta.
 
-12. Ejecutamos nuestro paquete ejecutando el comando `pykrange.portable` y verificamos que nuestra aplicacion este funcionando de manera correcta.
+12. Posteriormente creamos una cuenta en Chocolatey utilizando la siguiente direccion: https://community.chocolatey.org/account/register.
 
-13. Posteriormente creamos una cuenta en Chocolatey utilizando la direccion: https://community.chocolatey.org/account/register
-## 2.
+13. Utilizando la API key generada por la página, utilizamos el comando `choco apikey --key API_KEY --source https://push.chocolatey.org/`, donde `API_KEY` representa la llave de acceso para publicar un paquete de Chocolatey.
+
+14. Una vez establecido el API key de nuestra cuenta, subimos el paquete mediante el comando `choco push PACKAGE_NAME --source https://push.chocolatey.org/`, donde `PACKAGE_NAME` representa el nombre del paquete. En este caso, el nombre del paquete fue pykrange.portable.0.1.0.nupkg.
+
+## 2. 

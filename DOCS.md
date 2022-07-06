@@ -1,4 +1,4 @@
-# Pasos llevados a cabo
+# Pasos llevados a cabo para construir y publicar el paquete de Chocolatey - pykrange.portable
 Como Python es un lenguaje interpretado, este no se compila a un ejecutable como otros lenguajes de programacion, como C#. No obstante, podemos empaquetar el paquete de Python como un ejecutable mediante la libreria `pyinstaller`:
 
 1. Utilizando `pyinstaller main.py --onefile`, siendo el archivo `main.py` la aplicacion realizada previamente, podemos empaquetar la aplicación en un ejecutable.
